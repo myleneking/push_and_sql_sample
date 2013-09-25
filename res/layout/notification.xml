@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="3dp" >
+
+    <ImageView
+        android:id="@+id/ivNotifImage"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/tvNotifTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textColor="#fff"
+        android:text="title" />
+
+    <TextView
+        android:id="@+id/tvNotifMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textColor="#fff"
+        android:text="message" />
+
+</LinearLayout>
